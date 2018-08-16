@@ -1,6 +1,6 @@
 # SmViewer
 
-`SmViewer` is a container of Cesium core class and instance. It's the root component of other components of vue-supermap-cesium.\
+`SmViewer` is a container of Cesium core class and instance. It's the root component of other components of vue-cesium-supermap.\
 The container is an empty DOM node which used to mount other components or DOM nodes.
 
 ## Instance Properties

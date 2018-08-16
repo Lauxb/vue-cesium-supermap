@@ -3,13 +3,9 @@
 ## NPM
 
 ```bash
-$ npm install vue-supermap-cesium --save
+$ npm install vue-cesium-supermap --save
 ```
 
 ## CDN
 
 - 待完善
-
-<!-- ```html
-<script src="https://unpkg.com/vue-baidu-map"></script>
-``` -->

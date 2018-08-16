@@ -1,14 +1,14 @@
 # VUE SUPERMAP CESIUM
 
-<p align="center"><img src="//zouyaoji.top/vue-supermap-cesium/favicon.png" width="200px"></p>
+<p align="center"><img src="//zouyaoji.top/vue-cesium-supermap/favicon.png" width="200px"></p>
 
 <p align="center">基于 VUE 2.x 的 SuperMap iClient 3D for WebGL(built on Cesium)组件</p>
 
-[![npm](https://img.shields.io/npm/v/vue-supermap-cesium.svg)]()
-[![Travis](https://img.shields.io/travis/zouyaoji/vue-supermap-cesium.svg)]()
-[![Package Quality](http://npm.packagequality.com/shield/vue-supermap-cesium.svg)](http://packagequality.com/#?package=vue-supermap-cesium)
-[![npm](https://img.shields.io/npm/dm/vue-supermap-cesium.svg)]()
-[![license](https://img.shields.io/github/license/zouyaoji/vue-supermap-cesium.svg)]()
+[![npm](https://img.shields.io/npm/v/vue-cesium-supermap.svg)]()
+[![Travis](https://img.shields.io/travis/zouyaoji/vue-cesium-supermap.svg)]()
+[![Package Quality](http://npm.packagequality.com/shield/vue-cesium-supermap.svg)](http://packagequality.com/#?package=vue-cesium-supermap)
+[![npm](https://img.shields.io/npm/dm/vue-cesium-supermap.svg)]()
+[![license](https://img.shields.io/github/license/zouyaoji/vue-cesium-supermap.svg)]()
 
 ## 介绍
 
@@ -28,7 +28,7 @@
 
 ## 贡献
 
-[贡献指南](https://github.com/zouyaoji/vue-supermap-cesium/blob/master/CONTRIBUTING.md)
+[贡献指南](https://github.com/zouyaoji/vue-cesium-supermap/blob/master/CONTRIBUTING.md)
 
 ## 协议
 

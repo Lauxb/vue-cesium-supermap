@@ -4,11 +4,11 @@
 
 ### Global Registration
 
-Regist all components of *vue-supermap-cesium* at once.
+Regist all components of *vue-cesium-supermap* at once.
 
 ```javascript
 import Vue from 'vue'
-import SuperMapCesium from 'vue-supermap-cesium'
+import SuperMapCesium from 'vue-cesium-supermap'
 
 Vue.use(SuperMapCesium, {
   // cesiumPath is the path of the Cesium library, such as
@@ -41,7 +41,7 @@ Vue.use(SuperMapCesium, {
 ### Local Registration
 
 A locally registered `SmViewer` component **must** declare the `cesiumPath` attribute.
-All components are stored in the `vue-supermap-cesium / components` folder.
+All components are stored in the `vue-cesium-supermap / components` folder.
 As ES module can't be run directly in most browsers, if importing component causes some runtime errors, please check the webpack's loader configuration whethor the `include` and `exclude` options hits this library.
 
 ```html
@@ -52,7 +52,7 @@ As ES module can't be run directly in most browsers, if importing component caus
 </template>
 
 <script>
-import SmViewer from 'vue-supermap-cesium/components/cesium/viewer.vue'
+import SmViewer from 'vue-cesium-supermap/components/cesium/viewer.vue'
 export default {
   components: {
     SmViewer

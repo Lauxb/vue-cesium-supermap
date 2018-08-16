@@ -8,7 +8,7 @@
 
 ```javascript
 import Vue from 'vue'
-import SuperMapCesium from 'vue-supermap-cesium'
+import SuperMapCesium from 'vue-cesium-supermap'
 
 Vue.use(SuperMapCesium, {
   // cesiumPath 是指引用的Cesium的文件夹路径， 如
@@ -40,7 +40,7 @@ Vue.use(SuperMapCesium, {
 
 ### 局部注册
 
-如果有按需引入组件的需要，可以选择局部注册超图 Cesium 组件，这将减少工程打包后的容量尺寸。局部注册的 `SmViewer` 组件**必须**声明 `cesiumPath` 属性。所有的独立组件均存放在 `vue-supermap-cesium/components` 文件夹下，按需引用即可。由于未编译的 ES 模块不能在大多数浏览器中直接运行，如果引入组件时发生运行时错误，请检查 webpack 的 loader 配置，确认 `include` 和 `exclude` 选项命中了组件库。
+如果有按需引入组件的需要，可以选择局部注册超图 Cesium 组件，这将减少工程打包后的容量尺寸。局部注册的 `SmViewer` 组件**必须**声明 `cesiumPath` 属性。所有的独立组件均存放在 `vue-cesium-supermap/components` 文件夹下，按需引用即可。由于未编译的 ES 模块不能在大多数浏览器中直接运行，如果引入组件时发生运行时错误，请检查 webpack 的 loader 配置，确认 `include` 和 `exclude` 选项命中了组件库。
 
 ```html
 <template>
@@ -50,7 +50,7 @@ Vue.use(SuperMapCesium, {
 </template>
 
 <script>
-import SmViewer from 'vue-supermap-cesium/components/cesium/viewer.vue'
+import SmViewer from 'vue-cesium-supermap/components/cesium/viewer.vue'
 export default {
   components: {
     SmViewer
