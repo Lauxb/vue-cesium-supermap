@@ -95,8 +95,8 @@ export default {
     return {
       camera: {
         position: {
-          longitude: 104.06,
-          latitude: 30.67,
+          longitude: 121.50109,
+          latitude: 31.23691,
           height: 2000
         },
         heading: 360,
@@ -107,8 +107,8 @@ export default {
     }
   },
   mounted () {
-    this.camera.position.longitude = 116.46
-    this.camera.position.latitude = 39.92
+    this.camera.position.longitude = 121.50109
+    this.camera.position.latitude = 31.23691
     this.camera.position.height = 500
     this.animation = true
   }
@@ -128,8 +128,8 @@ export default {
     return {
       camera: {
         position: {
-          longitude: 104.06,
-          latitude: 30.67,
+          longitude: 121.50109,
+          latitude: 31.23691,
           height: 2000
         },
         heading: 360,
@@ -141,8 +141,8 @@ export default {
   },
   methods: {
     ready (param) {
-      this.camera.position.longitude = 116.46
-      this.camera.position.latitude = 39.92
+      this.camera.position.longitude = 121.50109
+      this.camera.position.latitude = 31.23691
       this.camera.position.height = 500
       this.animation = true
     }
@@ -164,8 +164,8 @@ export default {
     return {
       camera: {
         position: {
-          longitude: 104.06,
-          latitude: 30.67,
+          longitude: 121.50109,
+          latitude: 31.23691,
           height: 1000
         },
         heading: 360,
@@ -196,8 +196,8 @@ export default {
       return {
         camera: {
           position: {
-            longitude: 104.06,
-            latitude: 30.67,
+            longitude: 121.50109,
+            latitude: 31.23691,
             height: 100000
           },
           heading: 360,
