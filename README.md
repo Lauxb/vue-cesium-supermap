@@ -78,4 +78,4 @@ Copyright (c) 2018-present, lauxb <188013260@qq.com>
 
 ## Thanks
 
-I referenced a lot from the [vue-baidu-map](https://github.com/Dafrok/vue-baidu-map) project. Thanks very much!
+I referenced a lot from the [vue-baidu-map](https://github.com/Dafrok/vue-baidu-map) and [vue-supermap-cesium](https://github.com/zouyaoji/vue-supermap-cesium) projects. Thanks very much!
