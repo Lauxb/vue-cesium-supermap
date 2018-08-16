@@ -57,7 +57,7 @@ function transformAlias (content, level) {
 function transformES (content) {
   return babel.transform(content, {
     presets: [
-      'env'
+      'es2015'
     ]
   }).code
 }
