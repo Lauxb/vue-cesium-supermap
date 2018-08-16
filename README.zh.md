@@ -1,7 +1,7 @@
-# VUE CESIUM SUPERMAP
+# VUE SUPERMAP CESIUM
 
 <p align="center">
-  <img src="https://lauxb.github.io/vue-cesium-supermap/favicon.png" width="200px">
+  <img src="https://lauxb.github.io/vue-cesium-supermap/Cesium/favicon.png" width="200px">
 </p>
 <p align="center">基于 VUE 2.x 的 SuperMap iClient 3D for WebGL(built on Cesium)组件</p>
 
@@ -18,7 +18,7 @@
 
 ## 文档
 
-[https://lauxb.github.io/vue-cesium-supermap](https://lauxb.github.io/vue-cesium-supermap)
+[https://lauxb.github.io/vue-cesium-supermap/Cesium](https://lauxb.github.io/vue-cesium-supermap/Cesium)
 
 ## 开始
 
@@ -36,7 +36,11 @@ import SuperMapCesium from 'vue-cesium-supermap'
 
 Vue.use(SuperMapCesium, {
   // cesiumPath 是指引用的Cesium的文件夹路径， 如
-  cesiumPath: './statics/Cesium'
+  // cesiumPath: './statics/Cesium'
+  // 或者在线引用(http)
+  // cesiumPath: 'http://support.supermap.com.cn:8090/webgl/Build'
+  // 在线引用(https)
+  cesiumPath: 'https://lauxb.github.io/vue-cesium-supermap/Cesium'
 })
 ```
 
@@ -70,7 +74,7 @@ Vue.use(SuperMapCesium, {
 
 [MIT 许可证](https://opensource.org/licenses/MIT)
 
-版权所有 (c) 2018至今, lauxb <188013260@qq.com>
+版权所有 (c) 2018至今, lauxb <370681295@qq.com>
 
 ## 感谢
 

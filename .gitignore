@@ -43,6 +43,3 @@ dist
 coverage
 
 /index.js
-
-#lock json
-package-lock.json

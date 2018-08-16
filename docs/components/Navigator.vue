@@ -16,10 +16,7 @@ export default {
     routeMap () {
       const ret = []
       for (const route of routeMap) {
-        if (
-          !route.meta ||
-          (route.meta && !route.meta.hidden && route.meta.lang === this.lang)
-        ) {
+        if (!route.meta || (route.meta && !route.meta.hidden && route.meta.lang === this.lang)) {
           ret.push(route)
         }
       }

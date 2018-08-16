@@ -1,7 +1,7 @@
-# VUE CESIUM SUPERMAP
+# VUE SUPERMAP CESIUM
 
 <p align="center">
-  <img src="https://lauxb.github.io/vue-cesium-supermap/favicon.png" width="200px">
+  <img src="https://lauxb.github.io/vue-cesium-supermap/Cesium/favicon.png" width="200px">
 </p>
 <p align="center">SuperMap iClient 3D for WebGL(built on Cesium) components for Vue 2.x</p>
 
@@ -18,7 +18,7 @@
 
 ## Documentation
 
-[https://lauxb.github.io/vue-cesium-supermap](https://lauxb.github.io/vue-cesium-supermap)
+[https://lauxb.github.io/vue-cesium-supermap/Cesium](https://lauxb.github.io/vue-cesium-supermap/Cesium)
 
 ## Get Start
 
@@ -36,7 +36,11 @@ import SuperMapCesium from 'vue-cesium-supermap'
 
 Vue.use(SuperMapCesium, {
   // cesiumPath is the path of the Cesium library, such as
-  cesiumPath: './statics/Cesium'
+  // cesiumPath: './statics/Cesium'
+  // use online reference for http
+  // cesiumPath: 'http://support.supermap.com.cn:8090/webgl/Build'
+  // use online reference for https
+  cesiumPath: 'https://lauxb.github.io/vue-cesium-supermap/Cesium'
 })
 ```
 
@@ -70,7 +74,7 @@ Vue.use(SuperMapCesium, {
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2018-present, lauxb <188013260@qq.com>
+Copyright (c) 2018-present, lauxb <370681295@qq.com>
 
 ## Thanks
 

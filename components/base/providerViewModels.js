@@ -647,8 +647,8 @@ function createAMapByUrl (Cesium, options) {
   if (tileCount > 4) {
     throw new Cesium.DeveloperError(
       'The rectangle and minimumLevel indicate that there are ' +
-      tileCount +
-      ' tiles at the minimum level. Imagery providers with more than four tiles at the minimum level are not supported.'
+        tileCount +
+        ' tiles at the minimum level. Imagery providers with more than four tiles at the minimum level are not supported.'
     )
   }
   // >>includeEnd('debug');

@@ -20,7 +20,7 @@ after_script:
   - cd dist
   - git init
   - git config user.name "lauxb"
-  - git config user.email "188013260@qq.com"
+  - git config user.email "370681295@qq.com"
   - git add .
   - git commit -m "Travis build docs"
   - git push  --force --quiet "https://${GITHUB_TOKEN}@github.com/lauxb/vue-cesium-supermap.git" master:gh-pages
