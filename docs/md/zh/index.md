@@ -34,4 +34,4 @@
 
 [MIT 许可证](//opensource.org/licenses/MIT)
 
-版权所有 (c) 2018-至今 zouyaoji <370681295@qq.com>
+版权所有 (c) 2018-至今 zouyaoji <188013260@qq.com>

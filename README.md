@@ -74,7 +74,7 @@ Vue.use(SuperMapCesium, {
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2018-present, lauxb <370681295@qq.com>
+Copyright (c) 2018-present, lauxb <188013260@qq.com>
 
 ## Thanks
 

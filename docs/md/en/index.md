@@ -22,4 +22,4 @@ SuperMap iClient 3D for WebGL, which is built on Cesium, allows users to upload 
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2018-present, zouyaoji <370681295@qq.com>
+Copyright (c) 2018-present, zouyaoji <188013260@qq.com>
