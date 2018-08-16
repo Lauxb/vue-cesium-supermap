@@ -18,7 +18,7 @@
 
 ## 文档
 
-[https://lauxb.github.io/vue-cesium-supermap/Cesium](https://lauxb.github.io/vue-cesium-supermap/Cesium)
+[https://lauxb.github.io/vue-cesium-supermap](https://lauxb.github.io/vue-cesium-supermap)
 
 ## 开始
 
