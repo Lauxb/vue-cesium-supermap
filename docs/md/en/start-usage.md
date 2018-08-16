@@ -12,7 +12,7 @@ import SuperMapCesium from 'vue-cesium-supermap'
 
 Vue.use(SuperMapCesium, {
   // cesiumPath is the path of the Cesium library, such as
-  //cesiumPath: './statics/Cesium'
+  //cesiumPath: './static/Cesium'
   //online path
   cesiumPath: 'https://lauxb.github.io/vue-cesium-supermap/Cesium'
 })
