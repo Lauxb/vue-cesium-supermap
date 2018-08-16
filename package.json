@@ -1,6 +1,6 @@
 {
-  "name": "vue-supermap-cesium",
-  "version": "1.0.1",
+  "name": "vue-cesium-supermap",
+  "version": "1.0.2",
   "description": "SuperMap iClient 3D for WebGL(built on Cesium) Component for Vue 2.0",
   "main": "index.js",
   "scripts": {
