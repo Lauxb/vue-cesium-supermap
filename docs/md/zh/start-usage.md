@@ -12,7 +12,9 @@ import SuperMapCesium from 'vue-supermap-cesium'
 
 Vue.use(SuperMapCesium, {
   // cesiumPath 是指引用的Cesium的文件夹路径， 如
-  cesiumPath: './statics/Cesium'
+  //cesiumPath: './statics/Cesium'
+  //在线引用
+  cesiumPath: 'https://lauxb.github.io/vue-cesium-supermap/Cesium'
 })
 ```
 
@@ -216,14 +218,14 @@ export default {
         })
         imageryLayers.addImageryProvider(labelImagery)
         param.viewer.entities.add({
-          id: '成都欢迎你',
-          position: param.Cesium.Cartesian3.fromDegrees(104.06, 30.67, 100),
+          id: 'Cesium欢迎你',
+          position: param.Cesium.Cartesian3.fromDegrees(121.50109, 31.23691, 100),
           billboard: new param.Cesium.BillboardGraphics({
             image: 'https://lauxb.github.io/vue-cesium-supermap/favicon.png',
             scale: 0.1
           }),
           label: new param.Cesium.LabelGraphics ({
-            text: 'Hello Word',
+            text: 'Welcome to Shanghai',
             font: '24px sans-serif',
             horizontalOrigin: 1,
             outlineColor: new Cesium.Color(0, 0, 0, 1),

@@ -12,7 +12,9 @@ import SuperMapCesium from 'vue-supermap-cesium'
 
 Vue.use(SuperMapCesium, {
   // cesiumPath is the path of the Cesium library, such as
-  cesiumPath: './statics/Cesium'
+  //cesiumPath: './statics/Cesium'
+  //online path
+  cesiumPath: 'https://lauxb.github.io/vue-cesium-supermap/Cesium'
 })
 ```
 
@@ -213,7 +215,7 @@ export default {
         })
         imageryLayers.addImageryProvider(labelImagery)
         param.viewer.entities.add({
-          id: 'welcome to ChengDu',
+          id: 'welcome to Shanghai',
           position: param.Cesium.Cartesian3.fromDegrees(104.06, 30.67, 100),
           billboard: new param.Cesium.BillboardGraphics({
             image: 'https://lauxb.github.io/vue-cesium-supermap/favicon.png',
