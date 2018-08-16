@@ -47,7 +47,7 @@ function transformAlias (content, level) {
     plugins: [
       [
         'module-alias', [
-          {src: '../'.repeat(level), expose: '@'}
+          { src: '../'.repeat(level), expose: '@' }
         ]
       ]
     ]

@@ -34,16 +34,18 @@ export default {
 </script>
 
 <style lang="stylus">
-::-webkit-scrollbar
-  width 0
+::-webkit-scrollbar {
+  width: 0;
+}
 
 h1.title {
   .logo {
     width: 2.5rem;
     height: 2.5rem;
     vertical-align: middle;
-    margin-right: 1rem
+    margin-right: 1rem;
   }
+
   .logo, span, a {
     vertical-align: middle;
   }
@@ -59,6 +61,7 @@ h1.title {
 
 h2 {
   transition: all 1s;
+
   &.active {
     color: #0075c7;
     text-shadow: 0 0 10px silver;
@@ -68,37 +71,55 @@ h2 {
 
 .doc {
   padding: 0 2rem 2rem;
+
   blockquote {
     &::before {
       content: none;
     }
+
     &::after {
       content: none;
     }
   }
 }
 
-.map
-  width 100%
-  height 300px
-  img
-    max-width: none!important
-    background: none!important
-  svg
-    max-width initial
-  canvas
-    max-width initial
+.map {
+  width: 100%;
+  height: 300px;
 
-@media(min-width: 1281px)
-  .md-sidenav-backdrop
-    display none
-  .root
-    padding-left 304px
-  .main-nav
-    .md-sidenav-content
-      box-shadow 0 1px 5px rgba(0,0,0,.2), 0 2px 2px rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12)
-      pointer-events auto!important
-      transform translate3D(0, 0, 0)!important
-  .menu-button
-    display none!important
+  img {
+    max-width: none !important;
+    background: none !important;
+  }
+
+  svg {
+    max-width: initial;
+  }
+
+  canvas {
+    max-width: initial;
+  }
+}
+
+@media (min-width: 1281px) {
+  .md-sidenav-backdrop {
+    display: none;
+  }
+
+  .root {
+    padding-left: 304px;
+  }
+
+  .main-nav {
+    .md-sidenav-content {
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+      pointer-events: auto !important;
+      transform: translate3D(0, 0, 0) !important;
+    }
+  }
+
+  .menu-button {
+    display: none !important;
+  }
+}
 </style>

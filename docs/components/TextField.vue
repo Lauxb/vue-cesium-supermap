@@ -13,31 +13,40 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.text-field
-  box-sizing border-box
-  font-size 0
-  display inline-block
-  width 100%
-  .label
-    font-size .75rem
-  .input
-    font-size 0
-    overflow hidden
-    box-sizing border-box
-    border 1px solid #36c
-    box-shadow 0 0 2px silver inset
-    background white
-    height 2rem
-    line-height 2rem
-  input
-    box-sizing border-box
-    padding 0 .5rem
-    width 100%
-    margin 0
-    border 0
-    outline 0
-    height 100%
-    background transparent
-  label
-    font-size 1rem
+.text-field {
+  box-sizing: border-box;
+  font-size: 0;
+  display: inline-block;
+  width: 100%;
+
+  .label {
+    font-size: 0.75rem;
+  }
+
+  .input {
+    font-size: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #36c;
+    box-shadow: 0 0 2px silver inset;
+    background: white;
+    height: 2rem;
+    line-height: 2rem;
+  }
+
+  input {
+    box-sizing: border-box;
+    padding: 0 0.5rem;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    height: 100%;
+    background: transparent;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+}
 </style>

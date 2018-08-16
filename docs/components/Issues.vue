@@ -104,19 +104,11 @@ const typesOrder = [
   },
   {
     name: 'featrue',
-    items: [
-      'demo',
-      'description',
-      'usage'
-    ]
+    items: ['demo', 'description', 'usage']
   },
   {
     name: 'documentation',
-    items: [
-      'url',
-      'description',
-      'suggestion'
-    ]
+    items: ['url', 'description', 'suggestion']
   }
 ]
 
@@ -143,7 +135,9 @@ export default {
       type.items.forEach(name => {
         typeDetail.items.push({
           name,
-          label: formTypes[type.name].items[name].label || formTypes[type.name].items[name],
+          label:
+            formTypes[type.name].items[name].label ||
+            formTypes[type.name].items[name],
           type: formTypes[type.name].items[name].type || 'input'
         })
         formData[type.name][name] = ''
@@ -168,25 +162,31 @@ export default {
     },
     openIssue () {
       let isValid = true
-      const {issueType, content, formTypes, formData, openDialog} = this
+      const { issueType, content, formTypes, formData, openDialog } = this
       const data = formData[formTypes[issueType].name]
       for (const key in data) {
         if (!data[key]) {
           isValid = false
         }
       }
-      const url = 'https://github.com/lauxb/vue-cesium-supermap/issues/new?title=' + encodeURIComponent(data.title) + '&body=' + encodeURIComponent(content)
+      const url =
+        'https://github.com/lauxb/vue-cesium-supermap/issues/new?title=' +
+        encodeURIComponent(data.title) +
+        '&body=' +
+        encodeURIComponent(content)
       isValid ? global.open(url) : openDialog('dialog')
     }
   },
   computed: {
     content () {
       let lines = []
-      const {formTypes, issueType, formData} = this
+      const { formTypes, issueType, formData } = this
       const formType = formTypes[issueType]
       formType.items.forEach(item => {
         if (item.name === 'title') {
-          lines.push(`## [${formType.label}] ${formData[formType.name][item.name] || ''}`)
+          lines.push(
+            `## [${formType.label}] ${formData[formType.name][item.name] || ''}`
+          )
           lines.push('')
         } else {
           lines.push(`### ${item.label}`)
@@ -212,18 +212,28 @@ export default {
 </script>
 
 <style lang="stylus">
-.issues
-  .issues-card
-    padding 20px 10px
-    flex 1
-    .md-whiteframe
-      flex 1
-  .md-preview
-    display block
-    flex 1
-    padding 10px
-    pre
-      background #eee
-  .doc
-    padding 0
+.issues {
+  .issues-card {
+    padding: 20px 10px;
+    flex: 1;
+
+    .md-whiteframe {
+      flex: 1;
+    }
+  }
+
+  .md-preview {
+    display: block;
+    flex: 1;
+    padding: 10px;
+
+    pre {
+      background: #eee;
+    }
+  }
+
+  .doc {
+    padding: 0;
+  }
+}
 </style>
