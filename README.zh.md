@@ -78,4 +78,4 @@ Vue.use(SuperMapCesium, {
 
 ## 感谢
 
-该项目学习、借鉴了[vue-baidu-map](https://github.com/Dafrok/vue-baidu-map)，特此鸣谢！
+该项目学习、借鉴了[vue-baidu-map](https://github.com/Dafrok/vue-baidu-map) 和 [vue-supermap-cesium](https://github.com/zouyaoji/vue-supermap-cesium)，特此鸣谢！
